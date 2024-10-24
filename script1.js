@@ -270,8 +270,6 @@ function removeBookmark(movieId) {
         saveBookmarks();
         alert(`${movie.title}을(를) 북마크에서 삭제했습니다.`);
         showBookmarks();
-    } else {
-        alert('영화를 찾을 수 없습니다.');
     }
 }
 
