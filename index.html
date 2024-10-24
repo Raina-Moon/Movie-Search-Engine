@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화 검색 사이트</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>영화 검색</h1>
+        <input type="text" id="searchInput" placeholder="영화를 검색하세요...">
+        <button id="homeBtn">홈</button>
+        <button id="showBookmarksBtn">북마크 보기</button>
+    </header>
+
+    <div id="topRatedSlider" class="slider">
+        <h2>Top Rated</h2>
+        <button class="slide-arrow" id="prevSlide">&lt;</button>
+        <div class="slides"></div>
+        <button class="slide-arrow" id="nextSlide">&gt;</button>
+    </div>
+
+
+    <section id="movieList"></section>
+
+    <script src="./script1.js"></script>
+</body>
+</html>
